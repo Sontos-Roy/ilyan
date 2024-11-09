@@ -1,0 +1,13 @@
+.category_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+    color: gray;
+    padding: 10px;
+}
+.category_text:hover{
+    gap: 20px;
+    color: gray;
+}
