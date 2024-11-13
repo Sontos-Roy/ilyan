@@ -114,7 +114,7 @@
       infinite: true,
       slidesToShow: 4,
       slidesToScroll: 4,
-      autoplay: true,
+      autoplay: false,
       centerPadding: '5px',
       responsive: [
         {
