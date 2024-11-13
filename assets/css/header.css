@@ -211,7 +211,7 @@ header .fixed_brand_nav img{
   height: 100vh;
   z-index: 999;
   background: white;
-
+  transition: 0.3s;
 }
 .card_sidebar.active{
   right: 0;
@@ -240,13 +240,14 @@ header .fixed_brand_nav img{
     background-image: url(../image/1.png);
     position: relative;
     min-width: 100%;
-    min-height: 500px;
+    min-height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #d3d3d3;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px 20px;
 }
 .footer_top .footer_slider{
   width: 100%;

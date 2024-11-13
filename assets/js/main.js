@@ -63,6 +63,12 @@
         var value = parseInt($input.val());
         $input.val(value + 1);
     });
+    $('.payment_method .method_item').click(function(){
+      $('.payment_method .method_item').removeClass('active');
+      $(this).addClass('active');
+      let method = $(this).attr('method');
+      $('#payment_method_item').val(method);
+    })
 
     // Decrease quantity
     $('.decrease').click(function() {
